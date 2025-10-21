@@ -1,0 +1,1 @@
+:large_green_circle: *Resolved*: <{{ html_url }}|#{{ number }}: {{ title }}> by {{ user }}

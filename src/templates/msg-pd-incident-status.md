@@ -1,0 +1,1 @@
+<@{{user}}>, Incident {{incidentId}} status is *{{status}}*

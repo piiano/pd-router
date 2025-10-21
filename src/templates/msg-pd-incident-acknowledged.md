@@ -1,0 +1,1 @@
+*Acknowledged* <{{ html_url }}|#{{ number }}: {{ title }}> by {{ user }}

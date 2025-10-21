@@ -1,0 +1,1 @@
+*Reassigned* <{{ html_url }}|#{{ number }}: {{ title }}> to {{ user }}

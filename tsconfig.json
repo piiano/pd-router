@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es2020",                       /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "lib": ["es2020"],                        /* Specify a set of bundled library declaration files that describe the target runtime environment. */
+    "module": "ESNext",                     /* Specify what module code is generated. */
+    "moduleResolution": "Node",           /* Specify how TypeScript looks up a file from a given module specifier. */
+    "esModuleInterop": true,                  /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility. */
+    "declaration": true,                      /* Generate .d.ts files from TypeScript and JavaScript files in your project. */
+    "declarationMap": true,                   /* Create sourcemaps for d.ts files. */
+    "sourceMap": true,                        /* Create source map files for emitted JavaScript files. */
+    "outDir": "./dist",                       /* Specify an output folder for all emitted files. */
+    "forceConsistentCasingInFileNames": true, /* Ensure that casing is correct in imports. */
+    "strict": true,                           /* Enable all strict type-checking options. */
+    "noImplicitAny": true,                    /* Enable error reporting for expressions and declarations with an implied 'any' type. */
+    "strictNullChecks": true,                 /* When type checking, take into account 'null' and 'undefined'. */
+    "strictFunctionTypes": true,              /* When assigning functions, check to ensure parameters and the return values are subtype-compatible. */
+    "strictBindCallApply": true,              /* Check that the arguments for 'bind', 'call', and 'apply' methods match the original function. */
+    "strictPropertyInitialization": true,     /* Check for class properties that are declared but not set in the constructor. */
+    "skipLibCheck": true                      /* Skip type checking all .d.ts files. */
+  },
+  "include": ["src/**/*"],                    /* Specify an array of glob patterns that match TypeScript files to be included in compilation. */
+  "exclude": [                                /* Specify an array of glob patterns for files that should be excluded from compilation. */
+    "node_modules",
+    "dist"
+  ]
+}
